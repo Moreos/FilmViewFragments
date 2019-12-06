@@ -55,7 +55,7 @@ public class FilmViewHolder extends RecyclerView.ViewHolder {
 
         Picasso.with(mainContext)
                 .load(thisFilm.getImage_url())
-                .placeholder(R.drawable.error2)
+                .placeholder(R.drawable.error23)
                 .into(filmImage);
 
         filmContainer.setOnClickListener(new View.OnClickListener() {
